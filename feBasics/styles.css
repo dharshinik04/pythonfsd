@@ -1,0 +1,39 @@
+.heading1{
+    font-size: 5vh;
+    color: blue;
+    
+    }
+    
+    .name{
+        width: 50vw;
+        box-shadow: 10px 10px 15px #00000012;
+        border-radius: 2vh;
+        text-align: right;
+        background-color: aliceblue;
+        font-family: "Oleo Script Swash Caps", cursive;
+        border: 2px solid #ff00ff;   
+    }
+    
+    .normal_text{
+        font-size: 2vh;
+        font-family: "Oleo Script Swash Caps", cursive;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .red-box{
+        height: 5vh;
+        width: 5vw;
+        background-color:aquamarine;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
