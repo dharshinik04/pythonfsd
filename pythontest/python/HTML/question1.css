@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30vw;
+  margin: auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px auto auto 25px;
+  width: 25vw;
+}
+.com-img1 {
+  height: 2vh;
+  width: 2vw;
+  margin: auto;
+}
+.arrow {
+  margin-top: 10px;
+}
+.header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+/* div2 */
+.content-img {
+  margin: auto;
+}
+/* div3 */
+.content-display {
+  margin: auto auto auto 25px;
+}
+.sofa-name {
+  font-size: 23px;
+  font-weight: 800;
+}
+/* div4 */
+.content-color {
+  margin: auto auto auto 25px;
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.com-img1 {
+  border-radius: 50%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 8vw;
+  height: 5vh;
+  align-items: center;
+}
+/* div5 */
+.rate {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto auto 25px;
+  width: 25vw;
+  justify-content: space-between;
+}
+.dollar {
+  font-weight: bold;
+  font-size: 25px;
+}
+.cart {
+  background-color: #1350df;
+  border-radius: 10px;
+  width: 12vw;
+  height: 8vh;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.cart-design {
+  text-align: center;
+  color: white;
+  font-size: large;
+}
