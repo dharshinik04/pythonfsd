@@ -1,0 +1,39 @@
+.simple-button {
+  min-height: 5vh;
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+  font-size: 2vh;
+  border-radius: 1vh;
+  cursor: pointer;
+  margin: 2vh;
+  box-shadow: 5px 5 px 10px #00000055;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-layout {
+  min-height: 5vh;
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  padding: 1vh 2vw 1vh 2vw;
+  color: blue;
+  border: 2px solid blue;
+  font-size: 2vh;
+  border-radius: 1vh;
+  cursor: pointer;
+  margin: 1vh;
+  font-weight: 600;
+}

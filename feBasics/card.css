@@ -1,0 +1,54 @@
+.card-holder{
+    height: 30vh;
+    width: 30vw;
+    margin: 2vh;
+    box-shadow: 0 0 10px #00000055;
+    display: grid;
+    grid-template-columns: 0.09fr 2fr 0.091fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.3fr 0.2fr;
+    background-color:grey;
+    border-radius: 3vh;
+}
+.logo{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+  grid-row: 2/span 1
+}
+.logo1{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+  grid-row: 2/span 1
+}
+.logo2{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+  grid-row: 2/span 1
+}
+.logo3{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+  grid-row: 3/span 2
+  
+}
+.logo4{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+     grid-row: 3/span 2
+}
+.logo5{
+    height: 5vh;
+    width: 5vh;
+    margin: auto;
+    padding: 0px;
+     grid-row: 3/span 2
+}
