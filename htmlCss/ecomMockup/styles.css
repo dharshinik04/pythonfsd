@@ -162,11 +162,13 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 0.5vh 1vh 1vh 1vh;
+  border-color: green;
 }
 
 .line1 {
+  font: bold;
   font-size: 2vh;
-  color: gray;
+  color: black;
   font-family: "Roboto", sans-serif;
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
@@ -202,6 +204,14 @@
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
+
+.line6 {
+  font-size: 3vh;
+  color: rgb(248, 245, 245);
+  font-family: "Roboto", sans-serif;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
 .d {
   border-right: 2px solid rgb(236, 239, 236);
   padding-right: 13vh;
@@ -210,4 +220,14 @@
 .icon-3 {
   height: 2vh;
   width: 2vh;
+}
+
+.dgreen {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  height: 15vh;
+  width: 10vw;
+  background-color: green;
+  border-radius: 1vh;
+  padding: 5vh;
 }

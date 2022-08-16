@@ -1,0 +1,83 @@
+.icon-1 {
+  height: 3vh;
+  width: 3vh;
+}
+
+.web-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+}
+.horizontal-align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-box {
+  height: 6vh;
+  width: 55vw;
+  background-color: white;
+  border-radius: 2vh;
+  margin: 0 0 0 2vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 5vw;
+  border-right: 1px solid gray;
+  height: 95vh;
+}
+
+.menu-tab-icon {
+  height: 5vh;
+  width: 5vh;
+  background-color: rgb(204, 202, 202);
+  border-radius: 1vh;
+}
+
+.menu-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 20vh;
+}
+
+.menu-tab-act {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100;
+  background-color: blue;
+  border-radius: 1vh;
+}
+.menu-tab-icon-act {
+  height: 5vh;
+  width: 5vh;
+}
+.vertical-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-left: 1px solid gray;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.content-txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+  margin: 0;
+  color: gray;
+}
